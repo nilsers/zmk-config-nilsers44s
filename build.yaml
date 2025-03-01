@@ -20,4 +20,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: nilsers44s
+    shield: nilsers44s_left
+  - board: nice_nano_v2
+    shield: nilsers44s_right
+  - board: nice_nano_v2
+    shield: settings_reset
