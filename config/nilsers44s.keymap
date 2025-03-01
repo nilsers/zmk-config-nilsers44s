@@ -28,10 +28,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W           &kp E          &kp R          &kp T                            &kp Y    &kp U          &kp I          &kp O           &kp P     &kp BSPC
-&kp LCTRL  &kp A  &ht_tp LCTRL S  &ht_tp LALT D  &ht_tp LGUI F  &kp G                            &kp H    &ht_tp RGUI J  &ht_tp RALT K  &ht_tp RCTRL L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X           &kp C          &kp V          &kp B      &kp SPACE    &kp RET  &kp N    &kp M          &kp COMMA      &kp DOT         &kp FSLH  &kp ESC
-                                  &kp LGUI       &mo 1          &kp SPACE                        &kp RET  &mo 2          &kp RALT
+&kp TAB    &kp Q  &kp W           &kp E          &kp R          &kp T                               &kp Y    &kp U          &kp I          &kp O           &kp P     &kp BSPC
+&kp LCTRL  &kp A  &ht_tp LCTRL S  &ht_tp LALT D  &ht_tp LGUI F  &kp G                               &kp H    &ht_tp RGUI J  &ht_tp RALT K  &ht_tp RCTRL L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X           &kp C          &kp V          &kp B                               &kp N    &kp M          &kp COMMA      &kp DOT         &kp FSLH  &kp ESC
+                                  &kp LGUI       &mo 1          &kp SPACE    &kp SPACE    &kp RET   &kp RET  &mo 2          &kp RALT
             >;
         };
 
@@ -45,8 +45,8 @@
             bindings = <
 &kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &sys_reset    &bootloader   &trans        &trans        &trans        &trans    &trans  &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE                       &kp RET   &trans    &kp RALT
+&kp LSHFT   &sys_reset    &bootloader   &trans        &trans        &trans                          &trans    &trans    &trans    &trans     &trans  &trans
+                                        &kp LGUI      &trans        &kp SPACE     &trans    &trans  &kp RET   &trans    &kp RALT
             >;
         };
 
@@ -60,8 +60,8 @@
             bindings = <
 &kp TAB    &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                            &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR     &kp BSPC
 &kp LCTRL  &kp TILDE  &trans  &trans    &kp F2    &kp F12                              &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH     &kp GRAVE
-&kp LSHFT  &trans     &trans  &trans    &trans    &kp LA(LC(SPACE))  &trans    &trans  &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &bootloader  &sys_reset
-                              &kp LGUI  &trans    &kp SPACE                            &kp RET    &trans     &kp RALT
+&kp LSHFT  &trans     &trans  &trans    &trans    &kp LA(LC(SPACE))                    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &bootloader  &sys_reset
+                              &kp LGUI  &trans    &kp SPACE      &trans    &trans      &kp RET    &trans     &kp RALT
             >;
         };
     };
