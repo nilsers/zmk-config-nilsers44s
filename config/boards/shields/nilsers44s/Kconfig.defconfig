@@ -1,0 +1,14 @@
+if SHIELD_NILSERS44S_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "nilsers44s"
+
+endif
+
+
+if SHIELD_NILSERS44S_LEFT || SHIELD_NILSERS44S_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
